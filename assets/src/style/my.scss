@@ -33,3 +33,47 @@ footer{
 
 
 }
+.inner_blok2{
+  width: 40px;
+  height: 10px;
+  border-bottom: 4px solid blue;
+}
+
+.inner_blok3{
+  width: 40px;
+  height: 10px;
+  border-bottom: 4px solid white;
+}
+
+footer {
+  .blok2{
+    ul{
+      li{
+        list-style-type: none; /* Убираем маркеры */
+
+      }
+    }
+
+  }
+  .nav {
+    ul {
+      li{
+        height: 25px;
+      }
+      li::before {
+        content: url(../img/stre3.png);
+        position: absolute;
+        margin-top: 10px;
+        margin-right: 20px;
+
+      }
+
+    }
+  }
+
+}
+
+.blok4{
+  border:  dashed green;
+  border-width: 4px 0px;
+}
