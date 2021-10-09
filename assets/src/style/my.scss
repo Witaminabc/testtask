@@ -18,10 +18,7 @@ footer{
   }
 };
 
-.CTA{
-    filter: grayscale(100%);
 
-}
 
 .service{
 
@@ -77,3 +74,43 @@ footer {
   border:  dashed green;
   border-width: 4px 0px;
 }
+
+.menu1{
+  .dropdown-menu{
+    width: 400px!important;
+  }
+}
+.owl-prev{
+  position: absolute;
+  left:-50px;
+  background:none!important;
+}
+.owl-next {
+  position: absolute;
+  right: -50px;
+  background:none!important;
+}
+.owl-nav{
+position: relative;
+bottom: 150px;
+}
+
+
+.fffff{
+  background-color: white;
+}
+
+.block-red{
+  display: none;
+}
+
+.block-pict:hover .block-red{
+  display: block;
+}
+
+
+//item1::before{
+//  content: url("../img/whychoose/pict1.png");
+//  background-color: blue;
+//  margin: 10px;
+//}
