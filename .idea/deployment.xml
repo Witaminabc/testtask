@@ -5,7 +5,7 @@
       <paths name="тест">
         <serverdata>
           <mappings>
-            <mapping deploy="C:\Users\я\Desktop\gulpnew\test\gulp-ops2\123" local="$PROJECT_DIR$/123" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
